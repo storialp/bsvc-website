@@ -3,13 +3,13 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline/index.js";
 
 interface NavbarProps {
   path: string;
+  "client:load": boolean;
 }
 
 const navigation = [
   { name: "Home", href: "/" },
-  { name: "Divisions", href: "/divisions" },
+  { name: "Divisions", href: "#divisions" },
   { name: "Alumni", href: "/alumni" },
-  { name: "Join us", href: "/join" },
 ];
 
 export default function Navbar({ path }: NavbarProps) {
@@ -24,12 +24,12 @@ export default function Navbar({ path }: NavbarProps) {
                   <img
                     className="block h-12 w-36 lg:hidden rounded-full"
                     src="https://personal-website-pics-2.s3.eu-central-1.amazonaws.com/BSVC+-+Logo+Orizzontale+3.png"
-                    alt="A picture of me"
+                    alt="BSVC logo"
                   />
                   <img
                     className="hidden h-12 w-36 lg:block rounded-full"
                     src="https://personal-website-pics-2.s3.eu-central-1.amazonaws.com/BSVC+-+Logo+Orizzontale+3.png"
-                    alt="A picture of me"
+                    alt="BSVC logo"
                   />
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
@@ -39,13 +39,22 @@ export default function Navbar({ path }: NavbarProps) {
                       key={item.name}
                       className={
                         path === item.href
-                          ? "inline-flex items-center border-b-2 border-[#FFDE00] px-1 pt-1 text-sm font-medium text-[#FFFFFF]"
-                          : "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-100 hover:border-gray-300 hover:text-gray-700"
+                          ? "inline-flex items-center border-b-2 border-[#FFDE00] px-1 pt-1 text-sm font-medium text-gray-50"
+                          : "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-50 hover:border-gray-300 hover:text-gray-100 "
                       }
                     >
                       {item.name}
                     </a>
                   ))}
+                  <div className="flex justify-end items-center">
+                    <a
+                      type="button"
+                      className="inline-flex relative items-center align-middle justify-center h-10 px-4 border-b-2 border-transparent text-sm font-medium rounded-full shadow-sm text-white bg-yellow-500 hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-600"
+                      href="/"
+                    >
+                      Join us!
+                    </a>
+                  </div>
                 </div>
               </div>
               <div className="-mr-2 flex items-center sm:hidden">
