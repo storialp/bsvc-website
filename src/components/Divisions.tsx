@@ -9,25 +9,25 @@ const divisions = [
   {
     name: "Events",
     description:
-      "The Events division organizes the coolest public events, with venture capitalists, start-ups, and other important players in the ecosystem, and also internal events dedicated to our members only, such as in-company visits.",
+      "Organize events with Venture Capital funds and startups. This is the main division of the association",
     icon: BriefcaseIcon,
   },
   {
     name: "Communications",
     description:
-      "The Social division helps promote our activities on platforms like Instagram and LinkedIn. They create and post engaging content such as news, stories, and other interesting material to keep our followers up-to-date with the latest developments in VC, tech, and related fields.",
+      "Promote our events and grow our brand in the VC ecosystem through our different social media channels",
     icon: CameraIcon,
   },
   {
     name: "Consulting",
     description:
-      "The newly launched Consulting division revolves around helping startups grow and raise funds. The division is committed to supporting founders in building and growing sustainable businesses.",
+      "Advise early-stage startups on their fundraising. Connect them with VCs in our network if it's a match",
     icon: ChartPieIcon,
   },
   {
     name: "Articles",
     description:
-      "The Articles division is dedicated to producing high-quality posts about VC-related topics. They cover everything from theoretical concepts to in-depth analyses of interesting content, providing valuable insights and information to our audience.",
+      "Write on the state of VC, current trends and interesting developments. We post these here!",
     icon: PencilIcon,
   },
 ];
@@ -35,17 +35,14 @@ const divisions = [
 export default function Divisions() {
   return (
     <section id="divisions" aria-label="Our teams">
-      <div className="relative bg-white py-24 sm:py-32 lg:py-40">
+      <div className="relative bg-white py-16 ">
         <div className="mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
-          <h2 className="text-lg font-semibold text-[#FFDE00]">Divisions</h2>
+          <h2 className="text-xl font-semibold text-gray-900">Divisions</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Our teams
           </p>
-          {/* <p className='mx-auto mt-5 max-w-prose text-xl text-gray-500'>
-            
-          </p> */}
-          <div className="mt-20">
-            <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-2">
+          <div className="mt-16">
+            <div className="grid grid-cols-1 gap-16 sm:grid-cols-2 mx-24">
               {divisions.map((division) => (
                 <div key={division.name} className="pt-6">
                   <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
@@ -53,7 +50,7 @@ export default function Divisions() {
                       <div>
                         <span className="inline-flex items-center justify-center rounded-xl bg-yellow-400 p-3 shadow-lg">
                           <division.icon
-                            className="h-8 w-8 text-white"
+                            className="h-10 w-10 text-white"
                             aria-hidden="true"
                           />
                         </span>
