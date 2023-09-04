@@ -42,7 +42,7 @@ export default function Divisions() {
             Our teams
           </p>
           <div className="mt-16">
-            <div className="grid grid-cols-1 gap-16 sm:grid-cols-2 mx-24">
+            <div className="grid grid-cols-1 gap-16 sm:grid-cols-2 lg:mx-24">
               {divisions.map((division) => (
                 <div key={division.name} className="pt-6">
                   <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
