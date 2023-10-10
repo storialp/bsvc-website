@@ -8,6 +8,7 @@ const navigation = {
     { name: "Home", href: "/" },
     { name: "Divisions", href: "#divisions" },
     { name: "Alumni", href: "/alumni" },
+    { name: "Job Board", href: "https://bsvc-jobs.vercel.app" },
   ],
   social: [
     {

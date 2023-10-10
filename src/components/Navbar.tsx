@@ -10,6 +10,7 @@ const navigation = [
   { name: "Home", href: "/" },
   { name: "Divisions", href: "#divisions" },
   { name: "Alumni", href: "/alumni" },
+  { name: "Job board", href: "http://www.bsvc-jobs.vercel.app" },
 ];
 
 export default function Navbar({ path }: NavbarProps) {
