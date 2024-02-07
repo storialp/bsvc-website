@@ -24,7 +24,7 @@ export default function Hero() {
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
               Applications are open{' '}
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLScX3hmRV4Z-h2K1Qpw1PpzH5pI4lFtyNCg16AlpwLmez1triQ/viewform?usp=sf_link" className="font-semibold text-white">
+              <a href="https://forms.gle/GwgHYpeKq1bMQHaJ8" className="font-semibold text-white">
                 <span className="absolute inset-0 pl-1" aria-hidden="true" />
                 Apply now <span aria-hidden="true">&rarr;</span>
               </a>
@@ -40,7 +40,7 @@ export default function Hero() {
             </p> */}
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLScX3hmRV4Z-h2K1Qpw1PpzH5pI4lFtyNCg16AlpwLmez1triQ/viewform?usp=sf_link"
+                href="https://forms.gle/GwgHYpeKq1bMQHaJ8"
                 className="rounded-md bg-yellow-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-yellow-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-400"
               >
                 Join now
