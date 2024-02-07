@@ -4,7 +4,7 @@ export default function Hero() {
     <div className="bg-gray-900">
       <div className="relative isolate overflow-hidden">
         <img
-          src="https://utfs.io/f/af1f563e-b999-43eb-93a4-4d781ddcb199-1ia9qh.jpg"
+          src="https://utfs.io/f/46865879-9e2d-4744-93c6-2aa53ea4fac9-tuk0z4.jpg"
           alt="Piture of BSVC Team"
           className="absolute inset-0 -z-10 h-full w-full object-cover"
         />
