@@ -8,7 +8,7 @@ const navigation = {
     { name: "Home", href: "/" },
     { name: "Divisions", href: "#divisions" },
     { name: "Alumni", href: "/alumni" },
-    { name: "Job Board", href: "https://bsvc-jobs.vercel.app" },
+    // { name: "Job Board", href: "https://bsvc-jobs.vercel.app" },
   ],
   social: [
     {
@@ -91,7 +91,7 @@ export default function Footer() {
             ))}
           </div>
           <p className="mt-8 text-center text-base text-gray-400">
-            &copy; 2023 Bocconi Students for Venture Capital. All rights
+            &copy; 2024 Bocconi Students for Venture Capital. All rights
             reserved
           </p>
         </div>

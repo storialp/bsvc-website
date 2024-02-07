@@ -10,7 +10,7 @@ const navigation = [
   { name: "Home", href: "/" },
   { name: "Divisions", href: "#divisions" },
   { name: "Alumni", href: "/alumni" },
-  { name: "Job board", href: "http://www.bsvc-jobs.vercel.app" },
+  // { name: "Job board", href: "http://www.bsvc-jobs.vercel.app" },
 ];
 
 export default function Navbar({ path }: NavbarProps) {
@@ -51,7 +51,7 @@ export default function Navbar({ path }: NavbarProps) {
                     <a
                       type="button"
                       className="inline-flex relative items-center align-middle justify-center h-10 px-4 border-b-2 border-transparent text-sm font-medium rounded-full shadow-sm text-white bg-yellow-500 hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-600"
-                      href="/"
+                      href="https://docs.google.com/forms/d/e/1FAIpQLScX3hmRV4Z-h2K1Qpw1PpzH5pI4lFtyNCg16AlpwLmez1triQ/viewform?usp=sf_link"
                     >
                       Join us!
                     </a>
