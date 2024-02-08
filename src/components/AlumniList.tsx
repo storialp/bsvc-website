@@ -5,7 +5,7 @@ const people = [
     BSVCRole: 'Co-founder & Former President',
     imageUrl:
       'https://media.licdn.com/dms/image/C4D03AQHtaox40PuvnQ/profile-displayphoto-shrink_800_800/0/1625087761349?e=1712793600&v=beta&t=Bftrh4IIF714ujKW3QC663L65BrZ6ErajQrI1ikWc5o',
-    bio: 'Giovanni started his VC career in Berlin at Redstone and has now returned to Italy to be a VC at the Sella',
+    bio: 'Giovanni started his VC career in Berlin at Redstone and has now returned to Italy to be a VC at Sella',
     linkedinUrl: 'https://www.linkedin.com/in/gio-calabrese/',
   },
     {
@@ -34,6 +34,15 @@ const people = [
       'https://media.licdn.com/dms/image/D4D03AQHJr3bhQdofgA/profile-displayphoto-shrink_800_800/0/1662997690724?e=1712793600&v=beta&t=PsfrfgUdL1vI5jHaMtjjRsHvrjGF6877EcOJJJZeKmo',
     bio: "Luca started his venture career at Plug and Play. Afterwards, he did Venture Building at PoliHub and now does Investor Relations at PoliHub",
     linkedinUrl: 'https://www.linkedin.com/in/luca-schettino/',
+  },
+  {
+    name: 'Daria Pelini',
+    role: 'Ventures Associate @ Plug and Play',
+    BSVCRole: 'Co-founder & Former Head of Partnerships',
+    imageUrl:
+      'https://media.licdn.com/dms/image/C4D03AQFyoZbwhPY8Ng/profile-displayphoto-shrink_800_800/0/1632387117898?e=1712793600&v=beta&t=pOt_mcCYW9kMPutc6lqMrfONi6LgQx8us5a77xZHb9Q',
+    bio: "Daria started her career as an Operations Intern at Angels4Impact, she then went on to work at Impact Hub Milano before settling into Plug and Play in Valencia",
+    linkedinUrl: 'https://www.linkedin.com/in/daria-pelini-81930017a/',
   },
 ]
 
