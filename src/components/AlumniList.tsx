@@ -17,6 +17,15 @@ const people = [
     bio: "Bianca started her career in VC doing Investor Relations at Partech. She went on to work at B4i and is now in Berlin working at Best Nights, Jägermeister's VC",
     linkedinUrl: 'https://www.linkedin.com/in/bianca-ambrosini/',
   },
+    {
+    name: 'Daria Pelini',
+    role: 'Ventures Associate @ Plug and Play',
+    BSVCRole: 'Co-founder & Former Head of Partnerships',
+    imageUrl:
+      'https://media.licdn.com/dms/image/C4D03AQFyoZbwhPY8Ng/profile-displayphoto-shrink_800_800/0/1632387117898?e=1712793600&v=beta&t=pOt_mcCYW9kMPutc6lqMrfONi6LgQx8us5a77xZHb9Q',
+    bio: "Daria started her career as an Operations Intern at Angels4Impact, she then went on to work at Impact Hub Milano before settling into Plug and Play in Valencia",
+    linkedinUrl: 'https://www.linkedin.com/in/daria-pelini-81930017a/',
+  },
   {
     name: 'Matteo Ferravante',
     role: 'Founder in Residence @ Vento',
@@ -34,15 +43,6 @@ const people = [
       'https://media.licdn.com/dms/image/D4D03AQHJr3bhQdofgA/profile-displayphoto-shrink_800_800/0/1662997690724?e=1712793600&v=beta&t=PsfrfgUdL1vI5jHaMtjjRsHvrjGF6877EcOJJJZeKmo',
     bio: "Luca started his venture career at Plug and Play. Afterwards, he did Venture Building at PoliHub and now does Investor Relations at PoliHub",
     linkedinUrl: 'https://www.linkedin.com/in/luca-schettino/',
-  },
-  {
-    name: 'Daria Pelini',
-    role: 'Ventures Associate @ Plug and Play',
-    BSVCRole: 'Co-founder & Former Head of Partnerships',
-    imageUrl:
-      'https://media.licdn.com/dms/image/C4D03AQFyoZbwhPY8Ng/profile-displayphoto-shrink_800_800/0/1632387117898?e=1712793600&v=beta&t=pOt_mcCYW9kMPutc6lqMrfONi6LgQx8us5a77xZHb9Q',
-    bio: "Daria started her career as an Operations Intern at Angels4Impact, she then went on to work at Impact Hub Milano before settling into Plug and Play in Valencia",
-    linkedinUrl: 'https://www.linkedin.com/in/daria-pelini-81930017a/',
   },
 ]
 
