@@ -29,13 +29,13 @@ const boardMembers = [
     role: 'Head of Articles',
     imageUrl:
       'https://media.licdn.com/dms/image/C4D03AQG7GgeIgeZ8bQ/profile-displayphoto-shrink_800_800/0/1652302597832?e=1713398400&v=beta&t=7adxzXnrqP8M4gh2b1zruguyFOgPo4Tqy6bQ87EvmQE',
-    bio: 'Paul joined BSVC as a part of the consulting division, he then became head of articles. Paul has previous work experience working on innovative projects at Axel Springer and Tullet Prebon.',
+    bio: 'Paul is a BIEM student who joined BSVC as a part of the consulting division, he then became head of articles. Paul has previous work experience working on innovative projects at Axel Springer and Tullet Prebon.',
   },{
     name: "Matteo D'Ambrogio",
     role: 'Head of HR',
     imageUrl:
       'https://media.licdn.com/dms/image/D4D03AQF209uExPhDsQ/profile-displayphoto-shrink_800_800/0/1697289551032?e=1713398400&v=beta&t=SHJAgdz3eyKjyqLiLNhCMTh7nHBMn0BKx2ysCkAtsZs',
-    bio: 'Matteo joined BSVC as part of the HR division and is now the head of it.',
+    bio: 'Matteo is a CLEAM student that joined BSVC as part of the HR division and is now the head of it.',
   },
 ]
 
