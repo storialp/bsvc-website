@@ -8,7 +8,7 @@ const people = [
     bio: 'Giovanni started his VC career in Berlin at Redstone and has now returned to Italy to be a VC at Sella',
     linkedinUrl: 'https://www.linkedin.com/in/gio-calabrese/',
   },
-    {
+  {
     name: 'Bianca Ambrosini',
     role: 'Investor @ Best Nights VC',
     BSVCRole: 'Co-founder & Former Head of Communications',
@@ -17,7 +17,7 @@ const people = [
     bio: "Bianca started her career in VC doing Investor Relations at Partech. She went on to work at B4i and is now in Berlin working at Best Nights, Jägermeister's VC",
     linkedinUrl: 'https://www.linkedin.com/in/bianca-ambrosini/',
   },
-    {
+  {
     name: 'Daria Pelini',
     role: 'Ventures Associate @ Plug and Play',
     BSVCRole: 'Co-founder & Former Head of Partnerships',
@@ -34,6 +34,15 @@ const people = [
       'https://media.licdn.com/dms/image/D4D03AQFBkuALpQaOVA/profile-displayphoto-shrink_800_800/0/1705752198273?e=1712793600&v=beta&t=o9rlPP4MsLSVsD4outQxJQUJALJBNuOGc4dbNl0WSkI',
     bio: "Matteo started his startup career at Joinrs but he didn't stop there. He has worked at PayPal, Macai, and HelloFresh. With a background in Product Management he is now a founder at Vento's Venture Builder",
     linkedinUrl: 'https://www.linkedin.com/in/matteo-luigi-ferravante/',
+  },
+  {
+    name: 'Nazli Okuducu',
+    role: 'Innovation Analyst @ Deloitte',
+    BSVCRole: 'Former Head of Communications',
+    imageUrl:
+      'https://media.licdn.com/dms/image/D4D03AQEuCS4FKCzUFw/profile-displayphoto-shrink_800_800/0/1679389747348?e=1714608000&v=beta&t=PLwGQcMR1RMBxDwvcc2kJQO-S5JTaVFUULZ7mdaLkdk',
+    bio: "Nazli started her VC career at Workup, one of Turkey's most active accelerators. She then worked at StartersHub, APX, and Deloitte Garage in Berlin. She now works at Deloitte Officine Innovazione as an analyst.",
+    linkedinUrl: 'https://www.linkedin.com/in/nazliokuducu/',
   },
   {
     name: 'Luca Schettino',
