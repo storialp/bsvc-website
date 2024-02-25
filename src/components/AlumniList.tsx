@@ -41,7 +41,7 @@ const people = [
     BSVCRole: 'Former Head of Communications',
     imageUrl:
       'https://media.licdn.com/dms/image/D4D03AQEuCS4FKCzUFw/profile-displayphoto-shrink_800_800/0/1679389747348?e=1714608000&v=beta&t=PLwGQcMR1RMBxDwvcc2kJQO-S5JTaVFUULZ7mdaLkdk',
-    bio: "Nazli started her VC career at Workup, one of Turkey's most active accelerators. She then worked at StartersHub, APX, and Deloitte Garage in Berlin. She now works at Deloitte Officine Innovazione as an analyst.",
+    bio: "Nazli started her VC career at Workup, one of Turkey's most active accelerators. She then worked at StartersHub, APX, and Deloitte Garage in Berlin. She now works at Deloitte Officine Innovazione as an analyst",
     linkedinUrl: 'https://www.linkedin.com/in/nazliokuducu/',
   },
   {
