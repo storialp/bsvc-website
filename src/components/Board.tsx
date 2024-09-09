@@ -48,6 +48,13 @@ const boardMembers = [
       "https://media.licdn.com/dms/image/D4D03AQF209uExPhDsQ/profile-displayphoto-shrink_800_800/0/1697289551032?e=1713398400&v=beta&t=SHJAgdz3eyKjyqLiLNhCMTh7nHBMn0BKx2ysCkAtsZs",
     bio: "Kim is a BIEM student who joined BSVC in the articles division and is now Head of Articles. Kim has previous experience in a film production startup, as well as in private equity and private credit.",
   },
+  {
+    name: "Matteo D'Ambrogio",
+    role: "Head of HR",
+    imageUrl:
+      "https://media.licdn.com/dms/image/v2/D4D03AQF209uExPhDsQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1697289551032?e=1731542400&v=beta&t=XLfp9emYz7OMF1XxTB3d7oP_x-WV1cjFNEGk15nOgFU",
+    bio: "Matteo is a CLEAM student that joined BSVC as part of the HR division and is now the head of it.",
+  },
 ];
 
 export default function Board() {
