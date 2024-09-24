@@ -53,6 +53,15 @@ const people = [
     bio: "Luca started his venture career at Plug and Play. Afterwards, he did Venture Building at PoliHub and now does Investor Relations at PoliHub",
     linkedinUrl: 'https://www.linkedin.com/in/luca-schettino/',
   },
+  {
+    name: 'Luis Pericchi',
+    role: 'Investor Relations @ PoliHub',
+    BSVCRole: 'Co-founder & Former member',
+    imageUrl:
+      'https://media.licdn.com/dms/image/D4D03AQHJr3bhQdofgA/profile-displayphoto-shrink_800_800/0/1662997690724?e=1712793600&v=beta&t=PsfrfgUdL1vI5jHaMtjjRsHvrjGF6877EcOJJJZeKmo',
+    bio: "Luca started his venture career at Plug and Play. Afterwards, he did Venture Building at PoliHub and now does Investor Relations at PoliHub",
+    linkedinUrl: 'https://www.linkedin.com/in/luca-schettino/',
+  },
 ]
 
 export default function AlumniList() {
